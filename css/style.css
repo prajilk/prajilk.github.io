@@ -717,7 +717,9 @@ role {
 place {
 	font-size: .8em;
 }
-
+/* .timeline {
+	overflow: hidden;
+} */
 .timeline ul {
 	background: #fff;
 	padding: 50px 0;
@@ -748,7 +750,7 @@ place {
   .timeline ul li div {
 	position: relative;
 	bottom: 0;
-	width: 400px;
+	width: 380px;
 	padding: 15px;
 	background: #fff;
 	border: 1px solid lightgray;
@@ -809,7 +811,7 @@ place {
   }
   
   .timeline ul li:nth-child(odd) div {
-	transform: translate3d(200px, 0, 0);
+	transform: translate3d(-200px, 0, 0);
   }
   
   .timeline ul li:nth-child(even) div {
@@ -856,7 +858,7 @@ place {
   
   /* EXTRA/CLIP PATH STYLES
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
-  .timeline-clippy ul li::after {
+  /* .timeline-clippy ul li::after {
 	width: 40px;
 	height: 40px;
 	border-radius: 0;
@@ -911,7 +913,7 @@ place {
 	100% {
 	  transform: translateX(-50%) scale(1);
 	}
-  }  
+  }   */
 
 
 
@@ -2013,7 +2015,7 @@ span.border.two:after {
 		width: 93%;
 		float: none;
 		margin-right: 0;
-		min-height: 450px;
+		min-height: 475px;
 		margin-left: 2em;
 	}
 	.about-left-grid ul li a {
@@ -2120,7 +2122,7 @@ span.border.two:after {
 		width: 93%;
 		float: none;
 		margin-right: 0;
-		min-height: 490px;
+		min-height: 500px;
 		margin-left: 1.58em;
 	}
 	.about-right {
@@ -2146,7 +2148,7 @@ span.border.two:after {
 		margin: 2em auto 0;
 	}
 }
-@media(max-width:384px){
+@media(max-width:394px){
 	ul.year li {
 		margin-top: 10px;
 		font-size: 1em;
